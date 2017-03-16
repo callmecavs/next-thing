@@ -20,6 +20,9 @@ next.frame(() => console.log('Next frame.'))
 
 // runs in the next tick
 next.tick(() => console.log('Next tick.'))
+
+// runs when the browser is idle
+next.idle(() => console.log('Next idle.'))
 ```
 
 ## License
