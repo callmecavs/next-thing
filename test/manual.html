@@ -11,6 +11,9 @@
     <script>
       console.log('Module assigned to window.NextThing. Logged below:')
       console.log(NextThing)
+
+      NextThing.frame(() => console.log('Next frame.'))
+      NextThing.tick(() => console.log('Next tick.'))
     </script>
   </body>
 </html>
