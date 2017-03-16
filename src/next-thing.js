@@ -11,3 +11,13 @@ const next = supportsImmediate
 const tick = func => next(func)
 
 export { tick }
+
+const supportsIdle = typeof window.requestIdleCallback === 'function'
+
+const when = supportsIdle
+  ? func => window.requestIdleCallback(func)
+  : tick
+
+const idle = func => when(func)
+
+export { idle }
