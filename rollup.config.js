@@ -19,7 +19,7 @@ const config = {
     {
       dest: info.main,
       format: 'umd',
-      moduleName: 'Next-thing'
+      moduleName: 'NextThing'
     }, {
       dest: info.module,
       format: 'es'
