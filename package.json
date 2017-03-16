@@ -1,5 +1,5 @@
 {
-  "name":        "next-thing.js",
+  "name":        "next-thing",
   "description": "",
 
   "main":        "dist/next-thing.js",
@@ -7,14 +7,14 @@
   "jsnext:main": "dist/next-thing.module.js",
 
   "version": "0.0.1",
-  "license": "",
+  "license": "MIT",
 
-  "repository": "",
+  "repository": "callmecavs/next-thing",
 
   "author": {
-    "name":  "",
-    "email": "",
-    "url":   ""
+    "name":  "Michael Cavalea",
+    "email": "callmecavs@gmail.com",
+    "url":   "http://callmecavs.com/"
   },
 
   "scripts": {
