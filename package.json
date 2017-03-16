@@ -1,6 +1,6 @@
 {
   "name":        "next-thing",
-  "description": "",
+  "description": "Frame and tick helpers for the browser.",
 
   "main":        "dist/next-thing.js",
   "module":      "dist/next-thing.module.js",

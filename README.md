@@ -2,6 +2,8 @@
 
 [![next-thing on NPM](https://img.shields.io/npm/v/next-thing.svg?style=flat-square)](https://www.npmjs.com/package/next-thing) [![Standard JavaScript Style](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com/)
 
+Frame and tick helpers for the browser.
+
 ## Install
 
 ```sh
