@@ -1,12 +1,12 @@
 {
   "name":        "next-thing",
-  "description": "Frame and tick helpers for the browser.",
+  "description": "Frame, tick, and idle functions for the browser.",
 
   "main":        "dist/next-thing.js",
   "module":      "dist/next-thing.module.js",
   "jsnext:main": "dist/next-thing.module.js",
 
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
 
   "repository": "callmecavs/next-thing",
